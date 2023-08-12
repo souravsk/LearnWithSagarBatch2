@@ -10,7 +10,6 @@ Git and SCM Fundamentals class -
 8. Blog on Git Branches and commands
 9.
 10.
-11.
 
 References Link -
 1. Git installation : https://git-scm.com/downloads
