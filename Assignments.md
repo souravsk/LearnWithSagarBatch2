@@ -4,7 +4,10 @@ Git and SCM Fundamentals class -
 2. Setup your GitHub account
 3. Share your GitHub username with Sagar on whatsapp group
 4. Download and install Visual studio code on your machine
-
+5. Blog on Git and GitHub - What, Why and alternatives of GitHub
+6. Blog on Setting up a repository : git init, git clone and forking a repository
+7. Blog on Git basic commands - Add, Commit, Push, config
+8. 
 
 References Link -
 1. Git installation : https://git-scm.com/downloads
