@@ -9,7 +9,8 @@ Git and SCM Fundamentals class -
 7. Blog on Git basic commands - Add, Commit, Push, config, branch, checkout
 8. Blog on Git Branches and commands
 9.
-10. 
+10.
+11.
 
 References Link -
 1. Git installation : https://git-scm.com/downloads
