@@ -15,4 +15,5 @@ References Link -
 1. Git installation : https://git-scm.com/downloads
 2. GitHub Account creation : https://github.com/
 3. Visual studio code : https://code.visualstudio.com/download
-4. 
+4. Markdown cheatsheet - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emoji
+5. Emoji cheat Sheet - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
