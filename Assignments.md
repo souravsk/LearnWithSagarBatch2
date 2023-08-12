@@ -6,7 +6,7 @@ Git and SCM Fundamentals class -
 4. Download and install Visual studio code on your machine
 5. Blog on Git and GitHub - What, Why and alternatives of GitHub
 6. Blog on Setting up a repository : git init, git clone and forking a repository
-7. Blog on Git basic commands - Add, Commit, Push, config
+7. Blog on Git basic commands - Add, Commit, Push, config, branch, checkout
 8. Blog on Git Branches and commands
 9.
 10. 
