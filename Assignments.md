@@ -8,4 +8,5 @@ Git and SCM Fundamentals class -
 
 References Link -
 1. Git installation : https://git-scm.com/downloads
-2. GitHub Account creation : 
+2. GitHub Account creation : https://github.com/
+3. Visual studio code : https://code.visualstudio.com/download 
