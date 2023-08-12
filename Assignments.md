@@ -14,7 +14,7 @@ References Link -
 2. GitHub Account creation : https://github.com/
 3. Visual studio code : https://code.visualstudio.com/download
 4. Markdown cheatsheet - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emoji
-5. Emoji cheat Sheet - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+5. Emoji cheat Sheet 2 - https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 6. Resolve merge conflicts - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
 7. 
 
