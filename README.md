@@ -6,4 +6,4 @@
 
 ## [Blog on Repository and commands](https://akshayfasale.hashnode.dev/all-about-git-repositories-commands)
 
-## <a href="https://akshayfasale.hashnode.dev/all-about-git-repositories-commands" target="_blank">Blog on Repository</a>
+## [Blog on Linux](https://akshayfasale.hashnode.dev/introduction-to-linux)
