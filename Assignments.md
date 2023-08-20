@@ -75,7 +75,7 @@ Linux & Shell scripting class -
 37. Send email report only if
    a. CPU usage of the process is more than 70%
    b. Memory usage of the process is more than 75%
-38. COPY system_program files into remote machine and set a cron job to run the program at twice in a day
+38. COPY system_program files (zip,tar) into remote machine and set a cron job to run the program at twice in a day
 39. 
 
 
