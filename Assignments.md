@@ -71,7 +71,12 @@ Linux & Shell scripting class -
    a. Azure
    b. AWS
    C. GCP
-36. 
+36. System status project with top and /proc/meminfo + /proc/cpuinfo command
+37. Send email report only if
+   a. CPU usage of the process is more than 70%
+   b. Memory usage of the process is more than 75%
+38. COPY system_program files into remote machine and set a cron job to run the program at twice in a day
+39. 
 
 
 References Link -
@@ -87,12 +92,15 @@ References Link -
 10. Add EC2 user - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
 11. STOP ec2 instance using command - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#starting-stopping-instances
 12. Crontab.guru - https://crontab.guru/#0_23_*_*_*
-
+13. GMAIL APP PASSWORD - https://myaccount.google.com/apppasswords
+14. 
 
 
 Notes -
 Document for stopping AWS/GCP/AZURE instances
 CLI Commands to manage instances
+CHEAT SHEET  for Linux commands
+
 
 
 
