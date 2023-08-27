@@ -22,7 +22,7 @@ Setup Grafana Data Source
 Setup Grafana Dashboard
 ```
 
-#Step 1: Install InfluxDB
+# Step 1: Install InfluxDB
 Let’s first install the time series database InfluxDB using the Homebrew package manager. Install InfluxDB by running the below command in your terminal:
 
 $ sudo apt-get install influxdb influxdb-client
@@ -53,7 +53,7 @@ If you want to keep influxdb running in the background use the first command els
 You might observe influx listening on two ports, 8086 and 8088. By default, 8086 runs the InfluxDB HTTP service for client-server communication and 8088 runs the RPC service for backup and restore.
 Both of these ports can be configured in the configuration file, which can be found at /etc/influxdb/influxdb.conf.
 
-#Step 2: Create Influxdb database and user
+# Step 2: Create Influxdb database and user
 In order to store all data from telegraf (or any other) agents, we need to set up the influxdb database and user.
 
 InfluxDB provides the CLI tool named influx for interacting with an InfluxDB server. Influx command is like the mysql on MySQL, and mongo on the MongoDB database.
@@ -71,8 +71,8 @@ Now check the database and user.
 Make sure you get the database and user named telegraf on the influxdb server.
 
 
-influx
-Step 3: Install and configure Telegraf
+# influx
+# Step 3: Install and configure Telegraf
 Next, let’s install telegraf using the same package manager apt.
 Install telegraf by running the below command:
 
@@ -159,7 +159,7 @@ swap
 system
 Great! Both InfluxDB and Telegraf have now been configured. It’s time to visualize them on a dashboard.
 
-Step 4: Install Grafana
+# Step 4: Install Grafana
 In this first step, you will install Grafana onto your Ubuntu server. You can install Grafana either by downloading it directly from its official website or by going through an APT repository. Because an APT repository makes it easier to install and manage Grafana’s updates, you’ll use that method in this tutorial.
 
 Although Grafana probably will be available in the official Ubuntu packages repository, the version of Grafana there may not be the latest, so use Grafana’s official repository.
