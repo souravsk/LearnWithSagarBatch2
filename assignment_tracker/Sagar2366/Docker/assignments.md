@@ -13,7 +13,9 @@ EXTRA SESSIONS -
 3. CRI-O
 4. Python
 5. Optimising Docker image sizes
-6. 
+6. Shell scripting
+7. Portfolio
+8. Docker Swarm & networking
 
 REFERENCES -
 1. Docker installation : https://docs.docker.com/desktop/install/
