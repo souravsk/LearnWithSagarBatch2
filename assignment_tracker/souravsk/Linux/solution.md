@@ -41,7 +41,7 @@
 
 ### AWS
 ![](./images/ssh-aws-command.png)
-![](./images/ssh-aws.png)
+![](./images/ssh-aws.png``)
 
 ### Azure
 ![](./images/ssh-azure-command.png)
