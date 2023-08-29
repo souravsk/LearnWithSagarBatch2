@@ -32,7 +32,7 @@
 
 ## 6. Blog on Linux filesystem and hierarchy
 
-### ![]()
+### ![Linux File System](https://souravk.hashnode.dev/linux-file-system)
 
 ## 7. Blog on SSH and SCP
 
@@ -181,11 +181,26 @@ sleep 10
 
 
 ```
-18. Blog and practice to add new user into EC2 instance - Additional operations : Delete user, change group for the user, change the permissions for the user, etc
-19. Blog on Journalctl and system logging
-20. Blog on File and directory commands
-21. Blog on Chomod and chown command, ACL
-22. Shell script to connect different instances and add cron entry to stop instances every night at 11 PM (Cronjob)
+## 18. Blog and practice to add new user into EC2 instance - Additional operations : Delete user, change group for the user, change the permissions for the user, etc
+
+###
+
+## 19. Blog on Journalctl and system logging
+
+###
+
+## 20. Blog on File and directory commands
+
+###
+
+## 21. Blog on Chomod and chown command, ACL
+
+###
+
+## 22. Shell script to connect different instances and add cron entry to stop instances every night at 11 PM (Cronjob)
+
+
+
 23. Shell script to cleanup filesystem using cron
 24. Shell script to take a backup of instance volumes/drives
 25. Blog and practical on wget and curl command
