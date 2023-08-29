@@ -2,7 +2,7 @@
 
 ## 1. Download and install Git on your machine
 
-![](./Images/git%20version.jpg)
+![s](./Images/git%20version.jpg)
 
 ## 2. Setup your GitHub account
 
