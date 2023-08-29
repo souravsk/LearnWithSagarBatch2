@@ -2,19 +2,19 @@
 
 ## 1. Download and install Git on your machine
 
-![](./Images/git%20version.png)
+![](./Images/git%20version.jpg)
 
 ## 2. Setup your GitHub account
 
-![](./Images/github-account.png)
+![](./Images/github-account.jpg)
 
 ## 3. Share your GitHub username with Sagar on whatsapp group
 
-![](./Images/profile-share.png)
+![](./Images/profile-share.jpg)
 
 ## 4. Download and install Visual studio code on your machine
 
-![](./Images/vscode.png)
+![](./Images/vscode.jpg)
 
 ## 5. Blog on Git and GitHub - What, Why and alternatives of GitHub
 
