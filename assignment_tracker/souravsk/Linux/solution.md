@@ -1,23 +1,22 @@
 # Linux and Shell Scripting
 
 ## 1. Create free trial account on all 3 cloud providers - AWS, GCP, AZURE
-
-![](./Images/aws.png)
-![](./Images/azure.png)
-![](./Images/gcp.png)
+![](./images/aws.png)
+![](./images/azure.png)
+![](./images/gcp.png)
 
 ## 2. Blog on Operating system, Architecture, OS Features
 
-### ![Exploring the Heart of Computing: A Deep Dive into Operating System Architecture and Features](https://souravk.hashnode.dev/os)
+### [Exploring the Heart of Computing: A Deep Dive into Operating System Architecture and Features](https://souravk.hashnode.dev/os)
 
 ## 3. Blog on Linux, Linux for DevOps
 
-### ![Linux for DevOps: What You Need to Know](https://souravk.hashnode.dev/linux-for-devops)
+### [Linux for DevOps: What You Need to Know](https://souravk.hashnode.dev/linux-for-devops)
 
 ## 4. Launch instance in cloud provider Azure, AWS, GCP
 
 ### AWS
-![](./Images//aws-vm.png)
+![](./images//aws-vm.png)
 
 ### Azure
 ![](./images/azure-vm.png)
@@ -28,11 +27,11 @@
 
 ## 5. Blog on VI editor - modes and shortcuts
 
-### ![How to Use Vim](https://souravk.hashnode.dev/how-to-use-vim)
+### [How to Use Vim](https://souravk.hashnode.dev/how-to-use-vim)
 
 ## 6. Blog on Linux filesystem and hierarchy
 
-### ![Linux File System](https://souravk.hashnode.dev/linux-file-system)
+### [Linux File System](https://souravk.hashnode.dev/linux-file-system)
 
 ## 7. Blog on SSH and SCP
 
