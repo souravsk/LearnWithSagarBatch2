@@ -35,7 +35,7 @@
 
 ## 7. Blog on SSH and SCP
 
-### ![]()
+### [what are SSH and SCP?](https://souravk.hashnode.dev/ssh-scp)
 
 ## 8. Connect remote machine/instance using SSH Azure, AWS, GCP
 
@@ -177,50 +177,100 @@ sleep 10
 ```
 ## 17. Shell script to verify if password is expired or how many days left for password to get expired
 ```
+#!/bin/bash
 
+username=$(whoami)
+expiration_days=$(sudo chage -l "$username" | awk 'NR == 7 {print $10}')
+
+if [ "$expiration_days" -gt 0 ]; then
+    sudo chage -l "$username" | awk 'NR == 7'
+else
+    echo "Password is expired"
+fi
 
 ```
 ## 18. Blog and practice to add new user into EC2 instance - Additional operations : Delete user, change group for the user, change the permissions for the user, etc
 
-###
+### [Create User In Ubuntu](https://souravk.hashnode.dev/create-user-in-ubuntu)
 
 ## 19. Blog on Journalctl and system logging
 
-###
+### [Journalctl and system logging](https://souravk.hashnode.dev/journalctl-and-system-logging)
 
 ## 20. Blog on File and directory commands
 
-###
+### [Linux Commands](https://souravk.hashnode.dev/linux-commands)
 
 ## 21. Blog on Chomod and chown command, ACL
 
-###
+### [Mastering File Permissions: Exploring chmod, chown, and ACL Commands](https://souravk.hashnode.dev/chmod-chown-acl)
 
 ## 22. Shell script to connect different instances and add cron entry to stop instances every night at 11 PM (Cronjob)
+```
 
 
+```
 
-23. Shell script to cleanup filesystem using cron
-24. Shell script to take a backup of instance volumes/drives
-25. Blog and practical on wget and curl command
-26. Connect to web server using CURL and perform GET/POST/PUT/DELETE/UPDATE (CRUD) operations.
+## 23. Shell script to cleanup filesystem using cron
+```
+
+
+```
+## 24. Shell script to take a backup of instance volumes/drives
+```
+
+
+```
+## 25. Blog and practical on wget and curl command
+
+### [What is wget and curl command?]()
+
+## 26. Connect to web server using CURL and perform GET/POST/PUT/DELETE/UPDATE (CRUD) operations.
     a. Connect to AWS using REST API and use curl to get a list of instance which are not running. Additionally, once you get a list terminate those instance.
     COMING SOON
-28. Blog on NMTUI - set static IP address, hostname, dns of instance
+```
+
+
+```
+## 28. Blog on NMTUI - set static IP address, hostname, dns of instance
    a. Azure
    b. AWS
    C. GCP
    D. Local
-30. Blog on file/directory compression and extraction with practical
-31. Shell script to find files+directories which have more than 1GB in size, and send a report via email
-32. Shell script to find files which have permission provided by the user as input
-33. Blog to create your own Linux command + practical
-34. Shell script to manage instances - (Create, terminate, Stop)
+
+```
+
+
+
+```
+## 29. Blog on file/directory compression and extraction with practical
+```
+
+
+```
+## 30. Shell script to find files+directories which have more than 1GB in size, and send a report via email
+
+```
+
+
+
+```
+## 31. Shell script to find files which have permission provided by the user as input
+```
+
+
+```
+## 32. Blog to create your own Linux command + practical
+## 33. Shell script to manage instances - (Create, terminate, Stop)
    a. Azure
    b. AWS
    C. GCP
-36. System status project with top and /proc/meminfo + /proc/cpuinfo command
-37. Send email report only if
-   a. CPU usage of the process is more than 70%
+## 34. System status project with top and /proc/meminfo + /proc/cpuinfo command
+## 35. Send email report only if
+   ### a. CPU usage of the process is more than 70%
+   ```
+   
+   
+   ```
    b. Memory usage of the process is more than 75%
-38. COPY system_program files (zip,tar) into remote machine and set a cron job to run the program at twice in a day
+## 36. COPY system_program files (zip,tar) into remote machine and set a cron job to run the program at twice in a day
