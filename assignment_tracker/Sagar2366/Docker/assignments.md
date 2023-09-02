@@ -6,6 +6,8 @@
 4. Dockerise Hello World webapp
 5. Push docker image to Docker Hub
 6. Deploy nginx server and configure SSL
+7. REST API using Flask/Python + MongoDB or preferrable language
+8. 
 
 EXTRA SESSIONS -
 1. DOCKER REST API
@@ -16,6 +18,7 @@ EXTRA SESSIONS -
 6. Shell scripting
 7. Portfolio
 8. Docker Swarm & networking
+9. Share code to connect MongoDB Atlas from Python
 
 REFERENCES -
 1. Docker installation : https://docs.docker.com/desktop/install/
