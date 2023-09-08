@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example
+  labels:
+    app: example
+  namespace: example
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: example
+  template:
+    metadata:
+      labels:
+        app: example
+    spec:
+      containers:
+      - name: example
+        image: flaskrestapi
+        ports:
+        - containerPort: 5000
+        imagePullPolicy: Never
+        env:
+          - name: MONGODB_ENDPOINT
+            value: mongodb://mongo:27017/example

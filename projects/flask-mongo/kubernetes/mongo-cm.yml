@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: movie-db-config
+  namespace: example
+data:
+  host: mongo
+  database: moviemanagement
