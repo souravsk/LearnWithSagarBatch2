@@ -19,14 +19,25 @@ In plain English, it provides you with tools to turn your time-series database (
 
 We will use Helm to install and manage Prometheus and Grafana on AKS cluster.
 
+## Is helm installed?
+We will use helm to install Prometheus & Grafana monitoring tools for this chapter. Please review installing helm chapter for instructions if you don’t have it installed.
+
+# add prometheus Helm repo
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
+# add grafana Helm repo
+helm repo add grafana https://grafana.github.io/helm-charts
+
 ## Steps to be followed
 ```
 Install Prometheus and Grafana using Helm
 Setup Port-forwarding for both Prometheus and Grafana
 Create a Service Principal and add roles to AKS cluster RG
-Create Data Source in Grafana
-Import Azure Monitor for Containers in Grafana
+Create Data Source and dashboard in Grafana
 View the metrics in Grafana Dashboard
+
+```
+
 Install Prometheus and Grafana
 # Define public Kubernetes chart repository in the Helm configuration
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
@@ -40,7 +51,7 @@ kubectl create ns prometheus
 helm install prometheus prometheus-community/kube-prometheus-stack -n prometheus
 # Check all resources in Prometheus Namespace
 kubectl get all -n prometheus
-```
+
 
 In order to login to the Grafana dashboard, username and password are required which can be retrieved by using the below command:
 # Get the Username
