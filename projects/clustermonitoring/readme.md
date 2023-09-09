@@ -42,10 +42,11 @@ az group create --name $RESOURCE_GROUP --location eastus
 
 # Create a new AKS cluster using the az aks create command. Here we create a 3 node cluster using the B-series Burstable VM type which is cost-effective and suitable for small test/dev workloads such as this.
 
-``` az aks create --resource-group $RESOURCE_GROUP \
-  --name $AKS_NAME \
-  --node-count 3 \
-  --node-vm-size Standard_B2s \
+```
+az aks create --resource-group $RESOURCE_GROUP
+  --name $AKS_NAME
+  --node-count 3
+  --node-vm-size Standard_B2s
   --generate-ssh-keys
 ```
 
