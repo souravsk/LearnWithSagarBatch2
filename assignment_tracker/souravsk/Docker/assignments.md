@@ -1,5 +1,4 @@
-
-
+# Docker Assignments
 1. Blog on Containerisation & Docker - why, what, how ?
 2. Docker containers and images
 3. Write Hello world webapp  in Python
@@ -57,4 +56,7 @@ Debugging steps :
   K8S default is set to "Always" Change to "IfNotPresent"
   imagePullPolicy: IfNotPresent
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4b4097 (docker solution)
