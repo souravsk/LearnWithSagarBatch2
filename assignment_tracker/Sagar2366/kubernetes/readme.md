@@ -13,17 +13,31 @@ Assignments :
 11. Monitor different Azure virtual machine from single Prometheus and grafana setup 
 12. Blog on Grafana - features, usage, usacases
 13. Blog on Kubernetes Secrets
-14. 
+14. Blog on AKS - features
+15. Create managed Kubernetes cluster with multi node setup
+      a. AKS
+      b. EKS
+      C. GKE
+17. Monitor Managed kubernetes service using single Prometheus Grafana setup
+18. Monitor Human Health using Strava on
+    a. Minikube
+    b. Managed Kubernetes Service
+20. Setup FLASK MongoDB Application on Minikube and Managed Kubernetes Service
+21. 
 
 
 
 ## Tools 
+```
 Kubectx - https://github.com/ahmetb/kubectx
 kubectl - https://kubernetes.io/docs/tasks/tools/
 Minikube - https://minikube.sigs.k8s.io/docs/start/
 Helm - https://helm.sh/docs/intro/install/
 Rancher Desktop - https://docs.rancherdesktop.io/getting-started/installation
 Docker Desktop - https://www.docker.com/products/docker-desktop/
+AZ CLI - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+```
 
 
 ## Links 
@@ -33,3 +47,6 @@ Strava configuration - https://github.com/grafana/strava-datasource/blob/master/
 Grafana Dashboards - https://grafana.com/grafana/dashboards/
 Metrics scraping using Node exporter - https://prometheus.io/docs/guides/node-exporter/
 Promethues Exporters list - https://prometheus.io/docs/instrumenting/exporters/
+Prometheus Grafana stack - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+Kubeadm - https://kubernetes.io/docs/reference/setup-tools/kubeadm/
+
