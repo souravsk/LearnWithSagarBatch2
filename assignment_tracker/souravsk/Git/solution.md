@@ -1,4 +1,4 @@
-# Git and SCM Fundamentals
+# Git and SCM Fundamentals Solutions
 
 ## 1. Download and install Git on your machine
 
