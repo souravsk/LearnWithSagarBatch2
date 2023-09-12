@@ -1,4 +1,4 @@
-# Linux and Shell Scripting
+# Linux and Shell Scripting Solutions
 
 ## 1. Create free trial account on all 3 cloud providers - AWS, GCP, AZURE
 ![](./images/aws.png)
@@ -223,7 +223,7 @@ fi
 ```
 ## 25. Blog and practical on wget and curl command
 
-### [What is wget and curl command?]()
+### [What is wget and curl command?](https://souravk.hashnode.dev/wget-curl)
 
 ## 26. Connect to web server using CURL and perform GET/POST/PUT/DELETE/UPDATE (CRUD) operations.
     a. Connect to AWS using REST API and use curl to get a list of instance which are not running. Additionally, once you get a list terminate those instance.
