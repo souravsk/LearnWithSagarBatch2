@@ -17,6 +17,7 @@ Assignments -
 6. Show important values as output, use sensitive attribute in output block
 7. Deploy previously created Docker, and Kubernetes projects on newly created clusters
 8. Add Azure monitoring and alerting for AKS cluster
+9. Create AKS/GKE/EKS clusters using resources
    ```
 
 Links -
