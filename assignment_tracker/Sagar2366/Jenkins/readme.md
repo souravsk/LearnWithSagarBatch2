@@ -12,9 +12,11 @@ Jenkins Assignments
 
 
 Note -
+```
 Jenkins with TLS/HTTPS : 
       A. https://wiki.jenkins.io/JENKINS/135468777.html
       B.  https://www.baeldung.com/ops/jenkins-enable-https
 Jenkins RBAC plugin - https://plugins.jenkins.io/role-strategy/
 Jenkins AD Integration - https://plugins.jenkins.io/active-directory/
 Jenkins Pipelines - https://www.jenkins.io/pipeline/getting-started-pipelines/#:~:text=In%20contrast%20to%20freestyle%20jobs,CD%20workflow%20capability%20in%20mind.
+```
