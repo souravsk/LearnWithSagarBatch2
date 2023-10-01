@@ -15,7 +15,7 @@ Jenkins Assignments
 13. Blog on Jenkins pipelines blocks basics - stages, steps, agents
 14. Use Github Webhook to automatically trigger Jenkins build on changes in the repository
 15. Send a pipeline report to gmail
-16. 
+16. Use REST API to send Jenkins weekly report over a email (Project)
 
 
 Note -
