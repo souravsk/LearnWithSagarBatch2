@@ -23,7 +23,14 @@ Assignments :
     a. Minikube
     b. Managed Kubernetes Service
 20. Setup FLASK MongoDB Application on Minikube and Managed Kubernetes Service
-21. 
+21. Pod Autoscaling : KEDA, Kubespray
+22. Cluster Autoscaling
+23. Sealed secrets : https://github.com/bitnami-labs/sealed-secrets
+24. Installation of ArgoCD using Helm chart
+25. Depeloy your Application on EKS/GKE/AKS on one the cluster
+26. Create a separate environment to host your ArgoCD
+27. Interate GitHub + Helm Chart and ArgoCD
+28. 
 
 
 
@@ -40,6 +47,7 @@ AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-insta
 ```
 
 
+```
 ## Links 
 Prometheus installation from source - https://prometheus.io/download/
 Grafana installation from source - https://grafana.com/docs/grafana/latest/setup-grafana/installation/
@@ -49,4 +57,7 @@ Metrics scraping using Node exporter - https://prometheus.io/docs/guides/node-ex
 Promethues Exporters list - https://prometheus.io/docs/instrumenting/exporters/
 Prometheus Grafana stack - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
 Kubeadm - https://kubernetes.io/docs/reference/setup-tools/kubeadm/
+ArgoCD Helm chart - https://blog.fourninecloud.com/installing-argo-cd-using-helm-ed4a0cd0845a
+ArgoCD - https://argo-cd.readthedocs.io/en/stable/
 
+```
