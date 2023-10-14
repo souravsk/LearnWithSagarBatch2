@@ -16,6 +16,17 @@ Jenkins Assignments
 14. Use Github Webhook to automatically trigger Jenkins build on changes in the repository
 15. Send a pipeline report to gmail
 16. Use REST API to send Jenkins weekly report over a email (Project)
+17. Setup Sonarqube as a Docker container and docuemnt the steps : Importance, code quality, continuous inspection, quality gates + Sonarlint
+18. Blog + Practical Interate Sonarqube with Jenkins
+19. What is alternative for SonarQube - Blog on Sonarqube alternatives, benefits, drawbacks
+20. Intearte Jenkins and OWASP tool for vulnerability scanning
+21. 
+
+
+# Very Important :
+1. Documenting important ports, usage
+2. Document the problem/issues which you fixed and the approch/solution
+3. Document commands of Docker, Kubernetes, Linux
 
 
 Note -
