@@ -15,6 +15,5 @@ node {
   }
 
   stage('Trivy Scanner') {
-    sh "trivy fs . > trivyfs.txt"
-  }
+    sh "trivy fs ."
 }
