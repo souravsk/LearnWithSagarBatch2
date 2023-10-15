@@ -21,7 +21,7 @@ pipeline {
         stage('SonarQube static code analysis') {
             steps {
                 
-                withSonarQubeEnv() {
+                withSonarQubeEnv('sonar-server') {
                       sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
