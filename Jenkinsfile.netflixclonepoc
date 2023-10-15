@@ -6,13 +6,20 @@ pipeline {
                 checkout scm
             }
         }
-    }
-
-    stages {
-        stage('Dependency check using OWASP') {
+        
+       stage('Dependency check using OWASP') {
             steps {
                    dependencyCheck additionalArguments: '', odcInstallation: 'dp-check'
                    dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
+            }
+        }
+
+        stage('SonarQube static code analysis') {
+            steps {
+                def scannerHome = tool 'SonarScanner';
+                withSonarQubeEnv() {
+                      sh "${scannerHome}/bin/sonar-scanner"
+                }
             }
         }
     }
