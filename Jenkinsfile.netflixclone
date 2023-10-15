@@ -13,4 +13,8 @@ node {
       sh "${scannerHome}/bin/sonar-scanner"
     }
   }
+
+  stage('Trivy Scanner') {
+    sh "trivy fs . > trivyfs.txt"
+  }
 }
