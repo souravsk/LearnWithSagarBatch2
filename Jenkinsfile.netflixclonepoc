@@ -33,7 +33,7 @@ pipeline {
 
         stage('Dependency installation') {
             steps {
-                sh "npm install"
+                sh "npm install projects/Netflix-clone/"
                 sh "ls -al"
             }
         }
