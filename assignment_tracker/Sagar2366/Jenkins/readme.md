@@ -24,7 +24,10 @@ Jenkins Assignments
             a. Integarte GMAIL with Jenkins and use it to send report
             b. Integrate GitHub Webhook with Jenkins
 23. Blog on Trivy scanner and use it pipeline for vulnerabilty scanning
-
+24. Add stage into Jenkins pipeline to build docker image, tag, and push it to Docker Hub
+25. Add stage into Jenkins pipeline to build docker image, tag, and push it to ECR
+26. Integrate AroCD with Kubernetes Cluster to update application resource (deployment, service, secrets) in your cluster.
+27. 
 
 # Very Important :
 1. Documenting important ports, usage
