@@ -7,4 +7,13 @@ pipeline {
             }
         }
     }
+
+    stages {
+        stage('Dependency check using OWASP') {
+            steps {
+                   dependencyCheck additionalArguments: '', odcInstallation: 'dp-check'
+                   dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
+            }
+        }
+    }
 }
