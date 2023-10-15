@@ -26,5 +26,19 @@ pipeline {
                 }
             }
         }
+
+        stage('Docker image build and push') {
+            steps {
+                withDockerRegistry(credentialsId: 'dockerregcred') {
+                    sh '''
+                            docker build -t netflix .
+                            docker tag netflix learnwithsagar/netflix:latest
+                            docker push learnwithsagar/netflix:latest
+                    '''
+                    
+                }
+            }
+        }
     }
+
 }
