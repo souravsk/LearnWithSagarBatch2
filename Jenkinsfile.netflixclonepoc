@@ -32,7 +32,7 @@ pipeline {
                 script {
                 withDockerRegistry(credentialsId: 'dockerregcred', toolName: 'docker') {
                     sh '''
-                            docker build -t netflix .
+                            docker build -t netflix --file projects/Netflix-clone/.
                             docker tag netflix learnwithsagar/netflix:latest
                             docker push learnwithsagar/netflix:latest
                     '''
