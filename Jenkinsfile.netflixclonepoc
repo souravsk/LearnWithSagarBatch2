@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+ tools {
+ }
+
   environment {
     scannerHome = tool 'SonarScanner';
    }
@@ -29,7 +32,7 @@ pipeline {
 
         stage('Docker image build and push') {
             steps {
-                withDockerRegistry(credentialsId: 'dockerregcred') {
+                withDockerRegistry(credentialsId: 'dockerregcred', toolName: 'docker') {
                     sh '''
                             docker build -t netflix .
                             docker tag netflix learnwithsagar/netflix:latest
