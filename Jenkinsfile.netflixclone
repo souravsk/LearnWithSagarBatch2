@@ -17,3 +17,4 @@ node {
   stage('Trivy Scanner') {
     sh "trivy fs ."
 }
+}
