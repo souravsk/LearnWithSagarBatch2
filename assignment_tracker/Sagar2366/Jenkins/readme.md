@@ -20,7 +20,10 @@ Jenkins Assignments
 18. Blog + Practical Interate Sonarqube with Jenkins
 19. What is alternative for SonarQube - Blog on Sonarqube alternatives, benefits, drawbacks
 20. Intearte Jenkins and OWASP tool for vulnerability scanning
-21. 
+21. For Netflix clone project -
+            a. Integarte GMAIL with Jenkins and use it to send report
+            b. Integrate GitHub Webhook with Jenkins
+23. Blog on Trivy scanner and use it pipeline for vulnerabilty scanning
 
 
 # Very Important :
