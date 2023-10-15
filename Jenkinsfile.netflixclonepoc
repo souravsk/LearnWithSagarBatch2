@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+  tools {
+        jdk 'jdk17'
+        nodejs 'node16'
+  }
+
   environment {
     scannerHome = tool 'SonarScanner';
    }
@@ -27,6 +32,12 @@ pipeline {
             }
         }
 
+        stage('Dependency installation') {
+            steps {
+                sh "npm install"
+                sh "ls -al"
+            }
+        }
         stage('Docker image build and push') {
             steps {
                 script {
