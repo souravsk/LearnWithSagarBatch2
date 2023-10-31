@@ -291,27 +291,41 @@ YES it's working.....
 
 ## 13. Blog on Kubernetes Secrets
 
-### 
+### [Kubernetes Secrets](https://souravk.hashnode.dev/secret)
 
 ## 14. Blog on AKS - features
 
-### 
+### [Azure Kubernetes Service (AKS)](https://souravk.hashnode.dev/aks)
 
 ## 15. Create managed Kubernetes cluster with multi node setup
       a. AKS
       b. EKS
       C. GKE
-###
+
+### AKS
+![](./images/created-aks.png)
+![](./images/node-aks.png)
+
+### EKS
+
+### GKS
+![](./images/node-gks.png)
 
 ## 17. Monitor Managed kubernetes service using single Prometheus Grafana setup
 
 ### 
 
 ## 18. Monitor Human Health using Strava on
-    a. Minikube
-    b. Managed Kubernetes Service
+   
+### a. Minikube
+![](./images/strave%20dashboard.png)
+
+### b. Managed Kubernetes Service
+
 
 ## 20. Setup FLASK MongoDB Application on Minikube and Managed Kubernetes Service
+
+
 ## 21 Kubernetes
        - Namespace
        - Mongo, flask POD using Deployment
@@ -319,3 +333,10 @@ YES it's working.....
        - MongoDB PV, PVC
        kubectl apply -f kubernetes/.
        kubernetes delete -f kubernetes/.
+## Pod Autoscaling : KEDA, Kubespray
+## Cluster Autoscaling
+## Sealed secrets : https://github.com/bitnami-labs/sealed-secrets
+## Installation of ArgoCD using Helm chart
+## Depeloy your Application on EKS/GKE/AKS on one the cluster
+## Create a separate environment to host your ArgoCD
+## Interate GitHub + Helm Chart and ArgoCD
