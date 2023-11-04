@@ -22,4 +22,11 @@
 12. Spotipy Library : https://spotipy.readthedocs.io/en/2.22.1/
 13. Setting an Environment variables using OS module
 14. Make your application secure by using K8S secrets, Vault
-15. 
+15. FastAPI : https://fastapi.tiangolo.com/
+16. Uvicorn : https://www.uvicorn.org/
+17. TextBlob : https://textblob.readthedocs.io/en/dev/
+18. Write a wikipedia application
+19. Dockerise Wikipedia Application
+20. Deploy your wikipedia application on any K8S platform (EKS, GKE)
+21. Create a Frontend for wikipedia application
+22. 
