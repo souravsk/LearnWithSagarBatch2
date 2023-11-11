@@ -29,4 +29,7 @@
 19. Dockerise Wikipedia Application
 20. Deploy your wikipedia application on any K8S platform (EKS, GKE)
 21. Create a Frontend for wikipedia application
-22. 
+22. Create a Python Web Application for Weather details & forecasting using OpenWeatherMap API
+23. Dockerise the above application & also deploy it on the K8S cluster
+24. Setup and configure ELK stack
+25. Send Python app Logs to ELK stack
