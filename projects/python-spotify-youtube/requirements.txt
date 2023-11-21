@@ -1,0 +1,7 @@
+flask
+spotipy
+python-youtube
+flask_restful
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+
+  tools {
+        nodejs 'node16'
+  }
+
+  environment {
+    scannerHome = tool 'SonarScanner';
+   }
+    stages {
+        stage('Checkout SCM') {
+            steps {
+                checkout scm
+            }
+        }
+        
+       stage('Dependency check using OWASP') {
+            steps {
+                   dependencyCheck additionalArguments: '', odcInstallation: 'dp-check'
+                   dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
+            }
+        }
+
+        stage('SonarQube static code analysis') {
+            steps {
+                
+                withSonarQubeEnv('sonar-server') {
+                      sh "${scannerHome}/bin/sonar-scanner"
+                }
+            }
+        }
+
+        stage('Dependency installation') {
+            steps {
+                sh "npm install projects/Netflix-clone/"
+                sh "ls -al"
+            }
+        }
+        stage('Docker image build and push') {
+            steps {
+                script {
+                withDockerRegistry(credentialsId: 'dockerregcred', toolName: 'docker') {
+                    sh '''
+                            docker build -t netflix --file projects/Netflix-clone/Dockerfile .
+                            docker tag netflix learnwithsagar/netflix:latest
+                            docker push learnwithsagar/netflix:latest
+                    '''
+                    
+                }
+                }
+            }
+        }
+    }
+
+}

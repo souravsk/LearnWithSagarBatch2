@@ -1,0 +1,5 @@
+wikipedia==1.4.0
+pylint==2.13.5
+fastapi==0.75.1
+uvicorn==0.17.6
+textblob==0.17.1
